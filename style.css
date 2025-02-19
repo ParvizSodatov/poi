@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+}
+nav{
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 7px;
+
+}
+.Logo1{
+    width:15%;
+    /* border: 1px solid red; */
+
+}
+.ul1{
+    /* border: 1px solid red; */
+    width: 27%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+.numbut{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 17%;
+    justify-content: space-around;
+    align-items: center;
+}
+.button1{
+    color: white;
+    background-color: rgb(47, 164, 47);
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.span1{
+    display: inline;
+}
+.phonebars{
+    /* border: 1px solid red;    */
+    width: 4%;
+    font-size: 25px;
+    display: none;
+
+}
+
+.section1{
+    width: 98%;
+    /* background-color: aqua; */
+    margin:  2% auto;
+    display: flex;
+    justify-content: center;
+
+
+}
+.starukha{
+   width: 98%;
+   margin: auto;
+
+}
+.section2{
+    width: 80%;
+    margin: auto;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aside1{
+    /* border: 1px solid red; */
+    width: 31%;    
+    text-align: start;
+}
+.aside1 h1{
+    font-size: 27px;
+}
+.aside1 p{
+    margin-top: 5%;
+}
+.starukha2{
+   /* border: 1px solid red;  */
+   width: 40%;    
+}
+.p1{
+    display: inline;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.p2{
+    display: none;
+}
+.mipredlogaem{
+     /* border: 1px solid red;  */
+     width: 70%;
+     margin: 2% auto;
+     text-align: center;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.aside2{
+    /* border: 1px solid red;  */
+    position: relative;
+    width: 50%;
+    
+}
+.aside2 img{
+   width: 40%;
+}
+.section3{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 p{
+ color: gray;  
+ margin-top: 4%; 
+}
+#aaas{
+    position: absolute;
+    z-index: 1;
+    bottom: 160px;
+    left: 160px;
+
+}
+.aside3{
+    /* border: 1px solid rgb(152, 18, 145);  */
+    width: 30%;
+
+}
+.m{
+    /* border: 1px solid rgb(18, 63, 126);  */
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.m1{
+    /* border: 1px solid rgb(34, 126, 18);   */
+    width: 50%; 
+}
+.section4{
+    /* background-color: aqua; */
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+}
+.poluchite{
+    width: 30%;
+     /* border: 1px solid rgb(34, 126, 18);   */
+     font-size: 20px;
+     text-align: start;
+}
+
+#zapis{
+ background-color:  green;   
+ color: white;
+ padding: 15px;
+ border: none;
+ border-radius: 10px;
+ box-shadow: 0px 0px 5px black;
+}
+.section5{
+    /* background-color: aqua; */
+    width: 93%;margin-top: 2%;
+    margin-left: 4.4%;
+}
+#Video{
+    margin-left: 5%;
+    margin-top: 4%;
+    width: 90%;
+}
+.section6{
+    position: relative;
+}
+#Play{
+    position: absolute;
+    right: 43%;
+    top: 40%;
+}
+.section8{
+    /* background-color: aqua; */
+display: flex;
+justify-content: center;
+margin-top: 5%;
+}
+.aside4{
+    border: 0.3px solid gray;
+    width: 30%;
+    padding: 5%;
+}
+#Zabro{
+    color: white;
+    padding: 10px;
+    background-color: green;
+    border: none;border-radius: 4px;
+    display: none;
+}
+#Map{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+#svyaz{
+    position: absolute;width: 40%;
+    top: 610%;
+    left: 30%;
+
+
+}
+footer{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+   padding: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:520px){
+.ul1{
+    display: none;
+
+}
+.numbut{
+display: none;
+
+}
+.Logo1{
+    width: 40%;
+}
+.phonebars{
+  display: inline;
+  width: 16%;  
+}
+.starukha{
+height: 30vh;
+width: 90%;
+}
+.section2{
+flex-direction: column;
+
+}
+.aside1{
+   /* border: 1px solid red;  */
+width: 80%;
+text-align: center;
+}
+
+.p1{
+    display: none;
+}
+.p2{
+    width: 90%;
+    margin: auto;
+    display: inline;
+    text-align: start;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.starukha2{
+    width: 100%;
+    margin: auto;
+}
+.mipredlogaem{
+    width: 70%;
+    color: rgb(52, 48, 48);
+    text-align: center;
+}
+.section3{
+    flex-direction: column;
+}
+#aaas{
+    display: none;
+}
+.aside2{
+    width: 90%;  
+    margin-left: 10%;
+}
+.aside3{
+    width: 80%;
+    /* border: 1px solid red; */
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+#zapis{
+    display: none;
+   
+}
+.poluchite{
+    /* border: 1px solid red; */
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+    color: rgb(37, 34, 34);
+}
+#z1{
+    display: none;
+}
+#z2{
+    width: 90%;margin-left: 6%;
+}
+#z3{
+    display: none;
+}
+#Play{
+    position: absolute;
+    right: 30%;
+    top: 17%;
+    width: 35%;
+}
+.mipredlogaem{
+    text-align: start;
+    width: 80%;
+    margin-left: 14%;
+}
+.section8{
+    flex-direction: column;
+}
+.aside4{
+    
+    width: 80%;
+    margin-left: 7%;
+}
+.section8 img{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 6%;
+}
+.section8 hr{
+    display: none;
+}
+#Zabro{
+    display: inline;
+    width: 60%;
+    margin-top: 6%;
+    margin-left: 20%;
+    padding: 20px;
+    border-radius: 10px;box-shadow: 0px 0px 5px black;
+
+}
+#svyaz{
+    position: absolute;width: 40%;
+    top: 573%;
+    left: 30%;
+
+
+}
+footer{
+    /* flex-direction: column; */
+}
+}
